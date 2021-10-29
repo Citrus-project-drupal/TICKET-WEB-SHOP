@@ -813,3 +813,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_JmoB4mpZBh98LcOVXhy5xko9_K9BzmExTSZveSqFofmxXNs6EwqI5CNyy10cHo5HbrkKaUJdBw/sync';
+
+$settings['trusted_host_patterns'] = [
+  '^localhost$',
+  'ticket-web-shop.lndo.site$',
+  ];

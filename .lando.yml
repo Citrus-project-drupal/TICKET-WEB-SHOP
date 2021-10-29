@@ -1,4 +1,8 @@
 name: ticket-web-shop
 recipe: drupal9
+services:
+  appserver:
+    build:
+      - composer install
 config:
   webroot: web
