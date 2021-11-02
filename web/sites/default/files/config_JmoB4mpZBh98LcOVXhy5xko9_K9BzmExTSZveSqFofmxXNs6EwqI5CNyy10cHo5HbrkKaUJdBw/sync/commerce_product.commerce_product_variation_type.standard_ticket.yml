@@ -1,0 +1,10 @@
+uuid: 099ef9c7-ce8a-4f86-accc-8bf790eb388c
+langcode: en
+status: true
+dependencies: {  }
+id: standard_ticket
+label: 'Standard ticket'
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

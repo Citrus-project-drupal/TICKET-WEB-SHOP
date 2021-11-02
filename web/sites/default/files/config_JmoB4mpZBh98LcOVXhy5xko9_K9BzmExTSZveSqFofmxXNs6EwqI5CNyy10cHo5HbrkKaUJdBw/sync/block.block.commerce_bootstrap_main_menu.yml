@@ -1,0 +1,27 @@
+uuid: 080df0fa-3cf9-489b-85b4-e5c9259b002a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: _uH7wnTwQN9LR9emIpwucAsiGiqgy6xNxBzEjrhF4SM
+id: commerce_bootstrap_main_menu
+theme: commerce_bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

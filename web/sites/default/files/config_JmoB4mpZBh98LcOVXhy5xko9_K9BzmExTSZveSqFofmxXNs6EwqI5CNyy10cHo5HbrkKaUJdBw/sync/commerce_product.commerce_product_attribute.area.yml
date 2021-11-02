@@ -1,0 +1,7 @@
+uuid: c3d1c1ea-c53c-4bb1-91c4-945c3c320ebd
+langcode: en
+status: true
+dependencies: {  }
+id: area
+label: Area
+elementType: select

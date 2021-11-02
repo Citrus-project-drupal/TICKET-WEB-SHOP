@@ -17,7 +17,9 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/belgrade": "^1.1",
         "drupal/commerce": "^2.27",
+        "drupal/commerce_bootstrap": "^1.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
@@ -28,7 +30,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true

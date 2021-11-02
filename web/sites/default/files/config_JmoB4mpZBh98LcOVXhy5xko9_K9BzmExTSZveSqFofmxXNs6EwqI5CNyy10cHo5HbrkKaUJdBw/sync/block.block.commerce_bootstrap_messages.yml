@@ -1,0 +1,22 @@
+uuid: 36ec1edd-bac1-4952-8277-c3e58176e0ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: KfyaTPRJEcAyy2e5AxEfWQnuHcn4WrfvcWek7lSmHZQ
+id: commerce_bootstrap_messages
+theme: commerce_bootstrap
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

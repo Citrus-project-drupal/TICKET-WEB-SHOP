@@ -1,0 +1,12 @@
+uuid: f0bd5d73-1f21-477b-bfe3-e46df40e429d
+langcode: en
+status: true
+dependencies: {  }
+id: standard_ticket
+label: 'Standard ticket'
+description: 'A standard ticket with nothing special.'
+variationType: standard_ticket
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

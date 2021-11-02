@@ -1,0 +1,22 @@
+uuid: 12672d44-bcd6-4c39-83e8-e2ca8501f54e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: XMsRP1YhWAcorbrFWZglMYJ_SgWHyF3fyCh5vDXaUN4
+id: commerce_bootstrap_breadcrumbs
+theme: commerce_bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

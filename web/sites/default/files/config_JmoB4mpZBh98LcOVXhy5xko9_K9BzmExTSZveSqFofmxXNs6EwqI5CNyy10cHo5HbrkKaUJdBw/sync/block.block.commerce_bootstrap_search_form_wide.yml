@@ -1,0 +1,23 @@
+uuid: e4770c99-1f37-4545-a528-3edafa454fb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: kF9mVmsseaqxC_a3r0oTNT2MOdiEdr9-6lMUfIa18eI
+id: commerce_bootstrap_search_form_wide
+theme: commerce_bootstrap
+region: navigation
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2b6bbe01-60fc-48d6-ba27-67a759225e9e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: commerce_bootstrap_primary_local_tasks
+theme: commerce_bootstrap
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }
